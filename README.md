@@ -6,7 +6,7 @@ Cyber Defense](https://arxiv.org/abs/2503.02780)
 
 ## Training
 
-The agents developed in this work have been trained and evaluated on an extension of the [CybORG CAGE 2 framework](https://github.com/cage-challenge/cage-challenge-2), which supports more complex network topologies but uses the same actions and observations.
+The agents developed in this work have been trained and evaluated on an extension of the [CybORG CAGE 2 framework](https://github.com/cage-challenge/cage-challenge-2), which supports more complex network topologies but uses the same actions and observations. The extended CAGE 2 environment includes additional critical servers. The extended version is not publicly available, but the resilience metric proposed in this work can be easily adapted to other environments.
 
 Training requires ray 2.10.0. 
 The agents presented in the paper are standard PPO, Blue-R (reactive), and Blue-RD (reactive + proactive decoys). 
